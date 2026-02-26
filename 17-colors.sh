@@ -36,12 +36,3 @@ do
         echo -e $package already installed, $Y SKIPPING..$N
     fi
 done
-
-# dnf install nginx -y &>> $LOGS_FILE
-# VALIDATE $? "Installing nginx"
-
-# dnf install mysql -y &>> $LOGS_FILE
-# VALIDATE $? "Installing sql"
-
-# dnf install nodejs -y &>> $LOGS_FILE
-# VALIDATE $? "Installing nodejs"
